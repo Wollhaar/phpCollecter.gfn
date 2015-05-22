@@ -1,0 +1,108 @@
+   *{
+    margin: 0;    
+    padding: 0;
+    
+    font-family: verdana;
+    
+}
+
+#wrapper{
+    width: 960px;
+    margin: auto;
+    font-size: 13px;
+    color: #111;
+}
+
+#head{
+    height: 120px;
+    background-color: #6cf;
+    margin-bottom: 5px;
+
+}
+
+h1{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 1.3em; 
+}
+
+#navi{
+    float: left;
+    width: 200px;
+    min-height: 400px;
+    background-color: #6cf;
+    margin-right: 5px;
+    
+}
+
+#navi ul{
+    list-style: none;
+}
+
+#content{
+    float: left;
+    width: 755px;
+    min-height: 400px;
+    background-color: #6cf;
+    
+}
+
+input{
+    margin-bottom: 5px;
+}
+
+#error p{
+    color: #d22;
+}
+
+#footer{
+    clear: both;
+}
+
+#newproduct{
+    width: 210px;
+}
+
+#newproduct input, #newproduct textarea{
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+.product{
+    width: 320px;
+    padding: 15px;
+    border: 1px solid black;
+    overflow: auto;
+    margin: 5px;
+    float: left;
+    position: relative;
+}
+
+.product img{
+    float: left;
+    padding-right: 15px; 
+}
+
+.edit{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+table{
+    margin: 10px;
+}
+
+td{
+    padding: 5px;
+}
+
+span{
+    color: #f33;
+    //border-left: 1px solid #eee;
+    //padding-left: 2px;
+    text-align: left;
+}
